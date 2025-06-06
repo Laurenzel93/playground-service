@@ -11,7 +11,7 @@ import java.util.UUID;
 public class Anime {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID uuid;
 
     public void setUuid(UUID uuid) {
